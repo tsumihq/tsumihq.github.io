@@ -48,14 +48,15 @@
                padding-bottom:3px;
            }
           .hueshift {
-              animaton:5s hueshift linear infinite
+              animaton:5s hueshift linear infinite;
+                  filter:hue-rotate(0deg)
           }
           @keyframes hueshift {
               0% {
-                  filter:hueshift(0deg)
+                  filter:hue-rotate(0deg)
               }
               100% {
-                  filter:hueshift(360deg)
+                  filter:hue-rotate(360deg)
               }
           }
       </style>
