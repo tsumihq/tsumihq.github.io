@@ -1,0 +1,8 @@
+html {
+   font-family: "Ms UI Gothic";
+      image-rendering: pixelated;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: crisp-edges;
+      -webkit-font-smoothing: none;
+      font-size: 12px;
+}
