@@ -5,7 +5,7 @@ html {
       image-rendering: crisp-edges;
       -webkit-font-smoothing: none;
       font-size: 12px;
-      cursor:url("/media/cursors/star.png"), auto
+      cursor:url("/tsumihq/media/cursors/star.png"), auto
 }
 @font-face {
    font-family:1;
