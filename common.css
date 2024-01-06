@@ -1,9 +1,11 @@
 html {
-   font-family: "Ms UI Gothic";
+   font-family: "Ms UI Gothic", "Trebuchet MS", "Serif";
+   /*
       image-rendering: pixelated;
       image-rendering: -moz-crisp-edges;
       image-rendering: crisp-edges;
       -webkit-font-smoothing: none;
+   */
       font-size: 12px;
       cursor:url("/tsumihq/media/cursors/star.png"), auto
 }
