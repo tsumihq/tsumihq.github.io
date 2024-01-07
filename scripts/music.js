@@ -1,5 +1,5 @@
 // referenced from https://dokode.moe. Please let me know, Suni, if you want me to remove this!
-var boombox = document.getElementById('player');
+var player = document.getElementById('player');
 
                         function playMusic() {
                             player.play();
@@ -78,4 +78,4 @@ let randomSong = getRandom(Object.values(songs));
 console.log("now playing: " + ` ${randomSong.title}` + ` ${randomSong.url}`);
 
 document.getElementById('titlescroll').innerHTML = `${randomSong.title}`;
-document.getElementById('boombox').src = `${randomSong.url}`;
+document.getElementById('player').src = `${randomSong.url}`;
