@@ -1,23 +1,23 @@
 // referenced from https://dokode.moe. Please let me know, Suni, if you want me to remove this!
-var boombox = document.getElementById('player');
+//var boombox = document.getElementById('player');
 
-                        function playMusic() {
-                            player.play();
-                        }
+           //             function playMusic() {
+         //                   player.play();
+       //                 }
 
-                        function pauseMusic() {
-                            player.pause();
-                        }
+     //                   function pauseMusic() {
+   //                         player.pause();
+ //                       }
 
-                        function stopMusic() {
-                            player.pause();
-                            player.currentTime = 0;
-                        }
+//                        function stopMusic() {
+//                            player.pause();
+//                            player.currentTime = 0;
+//                        }
 const songs = {
 
     s1: {
-        title: 'Kirbys Dream Land 3 - Staff Roll',
-        url: '/media/audio/dl3_staff.mp3'
+        title: 'Kirby: Nightmare In Dreamland - Menu Theme',
+        url: 'media/music/other/02%20Main%20Menu.mp3'
     },
     s2: {
         title: 'Kirbys Dream Land 3 - Cast Roll',
