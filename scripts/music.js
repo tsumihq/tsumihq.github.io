@@ -17,7 +17,7 @@ const songs = {
 
     s1: {
         title: 'Kirby: Nightmare In Dreamland - Menu Theme',
-        url: 'media/music/other/knidlmainmenu.mp3'
+        url: '/media/music/other/knidlmainmenu.mp3'
     },
     s2: {
         title: 'Kirbys Dream Land 3 - Cast Roll',
