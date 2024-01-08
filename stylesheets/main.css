@@ -1,0 +1,42 @@
+html {
+    font-family: Tahoma;
+    font-size: 12px;
+  /*Sehr Crispy!*/
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    font-smooth: never;
+    -webkit-font-smoothing: none;
+}
+p {
+  line-height:12px;
+  text-indent:10px;
+  font-size:12px
+}
+.noindent {
+  text-indent:none
+}
+.ghosttxt {
+  opacity:0.5;
+  font-style:italic;
+}
+h4 {
+  font-size:14px
+}
+h3 {
+  font-size:15px
+}
+h2 {
+  font-size:16px
+}
+h1 {
+  font-size:18px
+}
+::selection {
+  background-color:yellow;
+  color:black
+}
+.container /*Centering for any lurking newbies.*/ {
+  margin-left:auto;
+  margin-right:auto;
+}
